@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`flex flex-col`}>
+      <nav className={`flex flex-row justify-between`}>
+        <p>$_purefunc</p>
+        <ul className={`flex flex-row gap-8`}>
+          <li>技術棧</li>
+          <li>我們的服務</li>
+          <li>領域</li>
+          <li>FAQ</li>
+          <li>產品</li>
+          <li>團隊</li>
+        </ul>
+        <button>Contact Us</button>
+      </nav>
+      <section className={`flex flex-col gap-8 pr-96 mx-auto`}>
+        <h1 className={`text-6xl font-bold font-mono pt-48`}>$_purefunc</h1>
+        <span className={`flex flex-col items-end`}>
+          <p className={`text-3xl font-medium`}>Software Development Company</p>
+          <p className={``}>- 2021.10.26</p>
+        </span>
+      </section>
     </div>
-  );
+  )
 }
-
-export default App;
