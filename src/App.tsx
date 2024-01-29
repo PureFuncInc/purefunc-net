@@ -4,7 +4,7 @@ import imac from './assets/imac.webp'
 
 export default function App() {
   return (
-    <div className={`flex flex-col gap-8 font-mono`}>
+    <div className={`flex flex-col font-mono`}>
       <nav className={`flex flex-wrap gap-4 py-2 items-center justify-center`}>
         <a href={`/`}>
           <img
@@ -21,7 +21,9 @@ export default function App() {
         <span>團隊</span>
         <button className={`py-1 px-2 border-gray-500 border-2 rounded-xl`}>Contact Us</button>
       </nav>
-      <section className={`flex flex-wrap gap-8 mx-auto items-center justify-center`}>
+      <div className={`w-full bg-gray-200 h-[48px]`}>
+      </div>
+      <section className={`flex flex-wrap gap-8 mx-auto mt-8 items-center justify-center`}>
         <div className={`flex flex-col gap-2`}>
           <h1 className={`text-4xl font-bold`}>$_purefunc</h1>
           <span className={`flex flex-col items-end`}>
@@ -31,32 +33,32 @@ export default function App() {
         </div>
         <img src={imac} className={`w-[360px]`}></img>
       </section>
-      <section className={`flex flex-col mx-auto`}>
+      <section className={`flex flex-col mx-auto mb-8`}>
         <h2 className={`text-lg font-medium`}>技術棧</h2>
         <div className={`w-[360px] h-[90px] bg-gray-400`}>
         </div>
       </section>
-      <section className={`flex flex-col mx-auto`}>
+      <section className={`flex flex-col mx-auto mb-8`}>
         <h2 className={`text-lg font-medium`}>我們的服務</h2>
         <div className={`w-[360px] h-[90px] bg-gray-400`}>
         </div>
       </section>
-      <section className={`flex flex-col mx-auto`}>
+      <section className={`flex flex-col mx-auto mb-8`}>
         <h2 className={`text-lg font-medium`}>領域</h2>
         <div className={`w-[360px] h-[90px] bg-gray-400`}>
         </div>
       </section>
-      <section className={`flex flex-col mx-auto`}>
+      <section className={`flex flex-col mx-auto mb-8`}>
         <h2 className={`text-lg font-medium`}>FAQ</h2>
         <div className={`w-[360px] h-[90px] bg-gray-400`}>
         </div>
       </section>
-      <section className={`flex flex-col mx-auto`}>
+      <section className={`flex flex-col mx-auto mb-8`}>
         <h2 className={`text-lg font-medium`}>產品</h2>
         <div className={`w-[360px] h-[90px] bg-gray-400`}>
         </div>
       </section>
-      <section className={`flex flex-col mx-auto`}>
+      <section className={`flex flex-col mx-auto mb-8`}>
         <h2 className={`text-lg font-medium`}>聯絡我們</h2>
         <div className={`w-[360px] h-[90px] bg-gray-400`}>
         </div>
