@@ -47,5 +47,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 npx create-react-app purefunc-net --template typescript
 
-npm install -D tailwindcss tailwindcss-animated autoprefixer eslint-plugin-react eslint-plugin-tailwindcss prettier-plugin-tailwindcss
+npm install -D tailwindcss tailwindcss-animated autoprefixer eslint-plugin-react eslint-plugin-tailwindcss prettier-plugin-tailwindcss react-icons
 npx tailwindcss init
