@@ -16,17 +16,25 @@ import WordCloud from 'react-d3-cloud'
 import { SiDiscord, SiFacebook, SiGithub, SiGmail, SiLinkedin, SiYoutube } from 'react-icons/si'
 
 const data = [
-  { text: 'Kotlin', value: 1000 },
-  { text: 'Java', value: 1000 },
-  { text: 'Python', value: 1000 },
-  { text: 'Spring Framework', value: 1000 },
-  { text: 'Flutter', value: 1000 },
-  { text: 'TypeScript', value: 1000 },
   { text: 'JavaScript', value: 1000 },
-  { text: 'Next.js', value: 1000 },
-  { text: 'Vue.js', value: 1000 },
+  { text: 'TypeScript', value: 1000 },
+  { text: 'Dart', value: 1000 },
+  { text: 'Java', value: 1000 },
+  { text: 'Kotlin', value: 1000 },
+  { text: 'Python', value: 1000 },
   { text: 'React.js', value: 1000 },
+  { text: 'Vue.js', value: 1000 },
+  { text: 'Next.js', value: 1000 },
   { text: 'Nuxt.js', value: 1000 },
+  { text: 'Flutter', value: 1000 },
+  { text: 'Spring Framework', value: 1000 },
+  { text: 'FastAPI', value: 1000 },
+  { text: 'Mobile Development', value: 1000 },
+  { text: 'Web Development', value: 1000 },
+  { text: 'Backend Development', value: 1000 },
+  { text: 'Automation Testing', value: 1000 },
+  { text: 'System Architecture', value: 1000 },
+  { text: 'DevOps Engineering', value: 1000 },
 ]
 
 export default function App() {
@@ -46,12 +54,12 @@ export default function App() {
           <FaBars size={24} />
         </span>
         <nav className={`hidden gap-4 md:flex md:flex-row`}>
-          <a href={`/blog`}>Blog</a>
-          <a href={`#product`}>Product</a>
-          <a href={`#services`}>Services</a>
-          <a href={`#technique`}>Technique</a>
-          <a href={`#team`}>Team</a>
-          <a href={`#contact`}>Contact</a>
+          <a href={`/blog`}>部落格</a>
+          <a href={`#services`}>服務類型</a>
+          <a href={`#product`}>產品專案</a>
+          <a href={`#technique`}>技術棧</a>
+          <a href={`#team`}>團隊成員</a>
+          <a href={`#contact`}>聯絡我們</a>
         </nav>
       </header>
       <section className={`flex flex-wrap items-center justify-center gap-4`}>
@@ -59,35 +67,35 @@ export default function App() {
           src={ImageIMac}
           className={`w-80`}
           alt={`Consult Us`} />
-        <h1 className={`border-black rounded-lg border-2 p-2`}>
-          Got a project in mind? Consult us.
+        <h1 className={`rounded-lg border-2 p-2`}>
+          抓到了流星般的靈感嗎？免費諮詢，讓我們一起為您的夢想加速！
         </h1>
       </section>
       <section className={`flex flex-col gap-2`}>
         <h2
           id={`services`}
-          className={`border-black border-b-2 pb-1 text-2xl`}>
+          className={`border-b-2 pb-1 text-2xl`}>
           OUR SERVICES
         </h2>
         <div className={`mx-8 flex flex-wrap justify-center gap-4`}>
-          <div className={`flex flex-col items-center lg:w-[300px]`}>
+          <div className={`flex flex-col lg:w-[300px]`}>
             <p>CONSULTING SERVICE</p>
-            <p>At our consulting service, we specialize in system architecture planning, optimization, and the implementation of automated testing processes</p>
+            <p>超過十載產業耕耘的菁英團隊，擁有多元技術實力與豐沛實作經驗，涵蓋前端、後端、行動端、系統架構、DevOps 與自動化測試等領域。我們提供全方位的顧問諮詢服務，為客戶打造最佳化的科技解決方案。 </p>
           </div>
-          <div className={`flex flex-col items-center lg:w-[300px]`}>
+          <div className={`flex flex-col lg:w-[300px]`}>
             <p>CUSTOM APP DEVELOPMENT</p>
-            <p>Explore our Custom App Development service, leveraging the efficiency and cross-platform capabilities of Flutter.</p>
+            <p>專精跨平台混合應用程式開發，著重 React Native 和 Flutter 等技術。高度重視客戶需求，全面考量最優方案，如視情況以 Progressive Web App 取代行動應用程式。</p>
           </div>
-          <div className={`flex flex-col items-center lg:w-[300px]`}>
+          <div className={`flex flex-col lg:w-[300px]`}>
             <p>CUSTOM SYSTEM DEVELOPMENT</p>
-            <p>Welcome to our Custom System Development service. We specialize in tailoring systems to meet your unique needs, ensuring efficiency and effectiveness in your operations.</p>
+            <p>提供客製化的系統開發服務，我們的專業團隊涵蓋各種領域，能全面協助客戶從規劃、分析、設計、實作到維運。不僅能節省客戶的時間，更降低整體成本。</p>
           </div>
         </div>
       </section>
       <section className={`flex flex-col gap-2`}>
         <h2
           id={`product`}
-          className={`border-black border-b-2 pb-1 text-2xl`}>
+          className={`border-b-2 pb-1 text-2xl`}>
           OUR PRODUCTS
         </h2>
         <div className={`mx-8 flex flex-wrap justify-center gap-4`}>
@@ -95,36 +103,36 @@ export default function App() {
             <img
               src={ImagePheme}
               className={`w-48 lg:w-36`}
-              alt={`Pheme Photo`} />
+              alt={`Pheme`} />
             <p>Pheme</p>
           </div>
           <div className={`flex flex-col items-center`}>
             <img
               src={ImageHanHuang}
               className={`w-48 lg:w-36`}
-              alt={`HanHuang Photo`} />
+              alt={`HanHuang`} />
             <p>HanHuang</p>
           </div>
           <div className={`flex flex-col items-center`}>
             <img
               src={ImageFooTinder}
               className={`w-48 lg:w-36`}
-              alt={`FooTinder Photo`} />
+              alt={`FooTinder`} />
             <p>FooTinder</p>
           </div>
           <div className={`flex flex-col items-center`}>
           <img
               src={ImageBlackLogo}
               className={`w-48 lg:w-36`}
-              alt={`PureFunc Blockchain Wallet Photo`} />
-            <p>FBW</p>
+              alt={`PureFunc Blockchain Wallet`} />
+            <p>PBW</p>
           </div>
         </div>
       </section>
       <section className={`flex flex-col gap-2`}>
         <h2
           id={`technique`}
-          className={`border-black border-b-2 pb-1 text-2xl`}>
+          className={`border-b-2 pb-1 text-2xl`}>
           TECHNIQUE STACKS
         </h2>
         <WordCloud
@@ -136,7 +144,7 @@ export default function App() {
       <section className={`flex flex-col gap-2`}>
         <h2
           id={`team`}
-          className={`border-black border-b-2 pb-1 text-2xl`}>
+          className={`border-b-2 pb-1 text-2xl`}>
           TEAM MEMBERS
         </h2>
         <div className={`mx-8 flex flex-wrap justify-center gap-4`}>
@@ -144,7 +152,7 @@ export default function App() {
             <img
               src={ImageWade}
               className={`w-48 lg:w-36`}
-              alt={`Wade Photo`} />
+              alt={`Wade`} />
             Wade, CEO
             <p>#SDET</p>
           </div>
@@ -152,7 +160,7 @@ export default function App() {
             <img
               src={ImageVincent}
               className={`w-48 lg:w-36`}
-              alt={`Vincent Photo`} />
+              alt={`Vincent`} />
             Vincent
             <p>#SRE</p>
           </div>
@@ -160,7 +168,7 @@ export default function App() {
             <img
               src={ImageNelson}
               className={`w-48 lg:w-36`}
-              alt={`Nelson Photo`} />
+              alt={`Nelson`} />
             Nelson
             <p>#Mobile</p>
           </div>
@@ -168,7 +176,7 @@ export default function App() {
             <img
               src={ImageDaniel}
               className={`w-48 lg:w-36`}
-              alt={`Daniel Photo`} />
+              alt={`Daniel`} />
             Daniel
             <p>#Frontend</p>
           </div>
@@ -176,7 +184,7 @@ export default function App() {
             <img
               src={ImageShawn}
               className={`w-48 lg:w-36`}
-              alt={`Shawn Photo`} />
+              alt={`Shawn`} />
             Shawn
             <p>#Backend</p>
           </div>
@@ -184,7 +192,7 @@ export default function App() {
             <img
               src={ImageCarlos}
               className={`w-48 lg:w-36`}
-              alt={`Carlos Photo`} />
+              alt={`Carlos`} />
             Carlos
             <p>#FullStack</p>
           </div>
@@ -193,7 +201,7 @@ export default function App() {
       <section className={`flex flex-col gap-2`}>
         <h2
           id={`contact`}
-          className={`border-black border-b-2 pb-1 text-2xl`}>
+          className={`border-b-2 pb-1 text-2xl`}>
           CONTACT US
         </h2>
         <div className={`mx-12 flex flex-wrap justify-center gap-4`}>
