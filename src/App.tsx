@@ -53,7 +53,7 @@ export default function App() {
         <span className={`md:hidden`}>
           <FaBars size={24} />
         </span>
-        <nav className={`hidden gap-4 md:flex md:flex-row`}>
+        <nav className={`hidden gap-4 md:flex md:flex-row text-[#FFFFFF]`}>
           <a href={`/blog`}>部落格</a>
           <a href={`#services`}>服務類型</a>
           <a href={`#product`}>產品專案</a>
@@ -74,7 +74,7 @@ export default function App() {
       <section className={`flex flex-col gap-2`}>
         <h2
           id={`services`}
-          className={`border-b-2 pb-1 text-2xl`}>
+          className={`border-b-2 pb-1 text-2xl text-[#E89619]`}>
           SERVICES
         </h2>
         <div className={`mx-8 flex flex-wrap justify-center gap-4`}>
@@ -95,7 +95,7 @@ export default function App() {
       <section className={`flex flex-col gap-2`}>
         <h2
           id={`product`}
-          className={`border-b-2 pb-1 text-2xl`}>
+          className={`border-b-2 pb-1 text-2xl text-[#E89619]`}>
           PRODUCTS
         </h2>
         <div className={`mx-8 flex flex-wrap justify-center gap-4`}>
@@ -132,7 +132,7 @@ export default function App() {
       <section className={`flex flex-col gap-2`}>
         <h2
           id={`technique`}
-          className={`border-b-2 pb-1 text-2xl`}>
+          className={`border-b-2 pb-1 text-2xl text-[#E89619]`}>
           TECHNIQUES
         </h2>
         <WordCloud
@@ -144,10 +144,10 @@ export default function App() {
       <section className={`flex flex-col gap-2`}>
         <h2
           id={`team`}
-          className={`border-b-2 pb-1 text-2xl`}>
+          className={`border-b-2 pb-1 text-2xl text-[#E89619]`}>
           MEMBERS
         </h2>
-        <div className={`mx-8 flex flex-wrap justify-center gap-4`}>
+        <div className={`mx-8 flex flex-wrap justify-center gap-4 text-[#FFFFFF]`}>
           <div className={`flex flex-col items-center`}>
             <img
               src={ImageWade}
@@ -198,10 +198,10 @@ export default function App() {
           </div>
         </div>
       </section>
-      <section className={`flex flex-col gap-2`}>
+      <section className={`flex flex-col gap-2 text-[#FFFFFF]`}>
         <h2
           id={`contact`}
-          className={`border-b-2 pb-1 text-2xl`}>
+          className={`border-b-2 pb-1 text-2xl text-[#E89619]`}>
           CONTACT
         </h2>
         <div className={`mx-12 flex flex-wrap justify-center gap-4`}>
@@ -231,7 +231,7 @@ export default function App() {
           </div>
         </div>
       </section>
-      <footer className={`mx-auto mb-4`}>
+      <footer className={`mx-auto mb-4 text-[#FFFFFF]`}>
         Copyright &copy; 2021-{(new Date()).getFullYear()} PureFunc Co., Ltd. All Rights Reserved.
         <img
           src={ImageBlackLogo}
