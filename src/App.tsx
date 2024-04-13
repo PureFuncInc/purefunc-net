@@ -63,19 +63,19 @@ export default function App() {
         </nav>
       </header>
       <section className={`flex flex-wrap items-center justify-center gap-4`}>
+        <h1 className={`rounded-lg border-2 p-2`}>
+          抓到了流星般的靈感嗎？免費諮詢，讓我們一起為您的夢想加速！
+        </h1>
         <img
           src={ImageIMac}
           className={`w-80`}
           alt={`Consult Us`} />
-        <h1 className={`rounded-lg border-2 p-2`}>
-          抓到了流星般的靈感嗎？免費諮詢，讓我們一起為您的夢想加速！
-        </h1>
       </section>
       <section className={`flex flex-col gap-2`}>
         <h2
           id={`services`}
           className={`border-b-2 pb-1 text-2xl`}>
-          OUR SERVICES
+          SERVICES
         </h2>
         <div className={`mx-8 flex flex-wrap justify-center gap-4`}>
           <div className={`flex flex-col lg:w-[300px]`}>
@@ -96,7 +96,7 @@ export default function App() {
         <h2
           id={`product`}
           className={`border-b-2 pb-1 text-2xl`}>
-          OUR PRODUCTS
+          PRODUCTS
         </h2>
         <div className={`mx-8 flex flex-wrap justify-center gap-4`}>
           <div className={`flex flex-col items-center`}>
@@ -133,7 +133,7 @@ export default function App() {
         <h2
           id={`technique`}
           className={`border-b-2 pb-1 text-2xl`}>
-          TECHNIQUE STACKS
+          TECHNIQUES
         </h2>
         <WordCloud
           data={data}
@@ -145,7 +145,7 @@ export default function App() {
         <h2
           id={`team`}
           className={`border-b-2 pb-1 text-2xl`}>
-          TEAM MEMBERS
+          MEMBERS
         </h2>
         <div className={`mx-8 flex flex-wrap justify-center gap-4`}>
           <div className={`flex flex-col items-center`}>
@@ -202,7 +202,7 @@ export default function App() {
         <h2
           id={`contact`}
           className={`border-b-2 pb-1 text-2xl`}>
-          CONTACT US
+          CONTACT
         </h2>
         <div className={`mx-12 flex flex-wrap justify-center gap-4`}>
           <div className={`flex w-[56px] flex-col items-center gap-2 text-xs`}>
