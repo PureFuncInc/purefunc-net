@@ -2,13 +2,13 @@ import React from 'react'
 
 export default function ServiceBlock() {
   return (
-    <section className={`flex flex-col`}>
+    <section className={`flex flex-col bg-[#FFFFFF]`}>
       <h2
         id={`services`}
-        className={`h-0 text-purefunc-1`}>
+        className={`h-0 text-[#FFFFFF]`}>
         SERVICES
       </h2>
-      <div className={`mx-auto flex flex-row justify-center gap-8 text-[#FFFFFF]`}>
+      <div className={`mx-auto flex flex-row justify-center gap-8 text-purefunc-1`}>
         <div className={`flex w-[512px] flex-col`}>
           <p className={`text-2xl font-medium`}>CONSULTING SERVICE</p>
           <p>超過十載產業耕耘的菁英團隊，擁有多元技術實力與豐沛實作經驗，涵蓋前端、後端、行動端、系統架構、DevOps

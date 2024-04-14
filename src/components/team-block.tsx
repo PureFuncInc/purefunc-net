@@ -8,20 +8,25 @@ import ImageCarlos from '../assets/team-carlos.webp'
 
 export default function TeamBlock() {
   return (
-    <section className={`flex flex-col`}>
+    <section className={`flex flex-col items-center`}>
       <h2
         id={`team`}
         className={`h-0 text-purefunc-1`}>
         MEMBERS
       </h2>
-      <div className={`mx-auto flex flex-row justify-center gap-8 text-[#FFFFFF]`}>
+      <div className={`flex flex-row gap-8`}>
         <div className={`flex flex-col items-center`}>
           <img
             src={ImageWade}
             className={`w-48 rounded-xl`}
             alt={`Avatar of Wade`}/>
           <p className={`text-xl font-extrabold text-purefunc-2`}>Wade, CEO</p>
-          <p>#SDET</p>
+        </div>
+        <div className={`border-2 border-[#FFFFFF] w-[512px] h-[200px]`}>
+        </div>
+      </div>
+      <div className={`flex flex-row gap-8 items-center`}>
+        <div className={`border-2 border-[#FFFFFF] w-[512px] h-[200px]`}>
         </div>
         <div className={`flex flex-col items-center`}>
           <img
@@ -29,15 +34,21 @@ export default function TeamBlock() {
             className={`w-48 rounded-xl`}
             alt={`Avatar of Vincent`}/>
           <p className={`text-xl font-extrabold text-purefunc-2`}>Vincent</p>
-          <p>#SRE</p>
         </div>
+      </div>
+      <div className={`flex flex-row gap-8`}>
         <div className={`flex flex-col items-center`}>
           <img
             src={ImageNelson}
             className={`w-48 rounded-xl`}
             alt={`Avatar of Nelson`}/>
           <p className={`text-xl font-extrabold text-purefunc-2`}>Nelson</p>
-          <p>#Mobile</p>
+        </div>
+        <div className={`border-2 border-[#FFFFFF] w-[512px] h-[200px]`}>
+        </div>
+      </div>
+      <div className={`flex flex-row gap-8 items-center`}>
+        <div className={`border-2 border-[#FFFFFF] w-[512px] h-[200px]`}>
         </div>
         <div className={`flex flex-col items-center`}>
           <img
@@ -45,15 +56,21 @@ export default function TeamBlock() {
             className={`w-48 rounded-xl`}
             alt={`Avatar of Daniel`}/>
           <p className={`text-xl font-extrabold text-purefunc-2`}>Daniel</p>
-          <p>#Frontend</p>
         </div>
+      </div>
+      <div className={`flex flex-row gap-8`}>
         <div className={`flex flex-col items-center`}>
           <img
             src={ImageShawn}
             className={`w-48 rounded-xl`}
             alt={`Avatar of Shawn`}/>
           <p className={`text-xl font-extrabold text-purefunc-2`}>Shawn</p>
-          <p>#Backend</p>
+        </div>
+        <div className={`border-2 border-[#FFFFFF] w-[512px] h-[200px]`}>
+        </div>
+      </div>
+      <div className={`flex flex-row gap-8 items-center`}>
+        <div className={`border-2 border-[#FFFFFF] w-[512px] h-[200px]`}>
         </div>
         <div className={`flex flex-col items-center`}>
           <img
@@ -61,7 +78,6 @@ export default function TeamBlock() {
             className={`w-48 rounded-xl`}
             alt={`Avatar of Carlos`}/>
           <p className={`text-xl font-extrabold text-purefunc-2`}>Carlos</p>
-          <p>#FullStack</p>
         </div>
       </div>
     </section>
