@@ -34,7 +34,7 @@ export default function TechniqueBlock() {
     <section className={`flex flex-col`}>
       <h2
         id={`technique`}
-        className={`text-purefunc-1 h-0`}>
+        className={`h-0 text-purefunc-1`}>
         TECHNIQUES
       </h2>
       <WordCloud

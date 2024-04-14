@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function FooterBlock() {
   return (
-    <footer className={`mx-auto mb-8 text-[#FFFFFF]`}>
+    <footer className={`mx-auto mb-8 flex flex-row items-center text-[#FFFFFF]`}>
       Copyright &copy; 2021-{(new Date()).getFullYear()} PureFunc Co., Ltd. All Rights Reserved.
       <img
         src={ImageBlackLogo}
