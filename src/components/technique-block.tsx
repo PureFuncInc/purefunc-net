@@ -31,10 +31,10 @@ const data = [
 
 export default function TechniqueBlock() {
   return (
-    <section className={`flex flex-col`}>
+    <section className={`mx-48 flex flex-col`}>
       <h2
         id={`technique`}
-        className={`h-0 text-[#FFFFFF]`}>
+        className={`h-0 text-purefunc-1`}>
         TECHNIQUES
       </h2>
       <WordCloud
