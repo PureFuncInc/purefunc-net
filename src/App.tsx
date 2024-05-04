@@ -5,25 +5,24 @@ import ProductBlock from './components/product-block'
 import TechniqueBlock from './components/technique-block'
 import HeaderBlock from './components/header-block'
 import MainBlock from './components/main-block'
-// import ServiceBlock from './components/service-block'
-
+import ServiceBlock from './components/service-block'
 
 export default function App() {
   return (
     <div className={`flex w-full flex-col gap-16`}>
-      <HeaderBlock/>
+      <HeaderBlock />
 
-      <MainBlock/>
+      <MainBlock />
 
-      {/*<ServiceBlock/>*/}
+      <ServiceBlock />
 
-      <ProductBlock/>
+      <ProductBlock />
 
-      <TechniqueBlock/>
+      <TechniqueBlock />
 
-      <TeamBlock/>
+      <TeamBlock />
 
-      <FooterBlock/>
+      <FooterBlock />
     </div>
   )
 }
