@@ -4,7 +4,7 @@ import { SiDiscord, SiFacebook, SiGithub, SiGmail, SiLinkedin, SiYoutube } from 
 
 export default function HeaderBlock() {
   return (
-    <header className={`mx-48 mt-8 flex flex-row items-center justify-between text-[#FFFFFF]`}>
+    <header className={`md:mx-16 lg:mx-24 xl:mx-36 2xl:mx-48 mt-8 gap-2 flex flex-wrap items-center justify-between text-[#FFFFFF]`}>
       <a href={`/`}>
         <img
           src={ImageNavyLogo}
@@ -33,7 +33,7 @@ export default function HeaderBlock() {
         </a>
         <a
           href={`#contact`}
-          className={`rounded-xl border-2 border-[#FFFFFF] px-4 py-2`}>
+          className={`hidden md:block rounded-xl border-2 border-[#FFFFFF] px-4 py-2`}>
           聯絡我們
         </a>
       </div>

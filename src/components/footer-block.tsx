@@ -4,7 +4,7 @@ import { SiDiscord, SiFacebook, SiGithub, SiGmail, SiLinkedin, SiYoutube } from 
 
 export default function FooterBlock() {
   return (
-    <footer className={`mx-48 mb-8 flex flex-row items-center justify-between text-[#FFFFFF]`}>
+    <footer className={`md:mx-16 lg:mx-24 xl:mx-36 2xl:mx-48 mb-8 gap-2 flex flex-wrap items-center justify-between text-[#FFFFFF]`}>
       <div className={`flex flex-row gap-8`}>
         <a href={`https://discord.purefunc.net`}>
           <SiDiscord size={24} />
@@ -31,7 +31,8 @@ export default function FooterBlock() {
           src={ImageBlackLogo}
           alt={`$_purefunc Black Logo`}
           width={24}
-          height={24} />
+          height={24}
+        className={`hidden md:block`}/>
       </div>
     </footer>
   )
