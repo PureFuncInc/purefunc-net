@@ -4,8 +4,8 @@ import { SiDiscord, SiFacebook, SiGithub, SiGmail, SiLinkedin, SiYoutube } from 
 
 export default function FooterBlock() {
   return (
-    <footer className={`md:mx-16 lg:mx-24 xl:mx-36 2xl:mx-48 mb-8 gap-2 flex flex-wrap items-center justify-between text-[#FFFFFF]`}>
-      <div className={`flex flex-row gap-8`}>
+    <footer className={`mx-8 lg:mx-24 xl:mx-36 2xl:mx-48 mb-8 gap-2 flex flex-wrap items-center justify-between text-[#FFFFFF]`}>
+      <div className={`flex flex-row items-center gap-8 min-h-[60px]`}>
         <a href={`https://discord.purefunc.net`}>
           <SiDiscord size={24} />
         </a>
@@ -25,7 +25,7 @@ export default function FooterBlock() {
           <SiYoutube size={24} />
         </a>
       </div>
-      <div className={`flex flex-row gap-2`}>
+      <div className={`flex flex-wrap gap-2 items-center`}>
         Copyright &copy; 2021-{(new Date()).getFullYear()} PureFunc Co., Ltd. All Rights Reserved.
         <img
           src={ImageBlackLogo}
