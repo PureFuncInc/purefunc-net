@@ -1,11 +1,14 @@
 import ImageBlackLogo from '../assets/purefunc_black.webp'
 import React from 'react'
-import { SiDiscord, SiFacebook, SiGithub, SiGmail, SiLinkedin, SiYoutube } from 'react-icons/si'
+import { SiDiscord, SiFacebook, SiGithub, SiLinkedin, SiWordpress, SiYoutube } from 'react-icons/si'
 
 export default function FooterBlock() {
   return (
     <footer className={`mx-8 lg:mx-24 xl:mx-36 2xl:mx-48 mb-8 gap-2 flex flex-wrap items-center justify-between text-[#FFFFFF]`}>
       <div className={`flex flex-row items-center gap-8 min-h-[60px]`}>
+        <a href={`/blog`}>
+          <SiWordpress size={24} />
+        </a>
         <a href={`https://discord.purefunc.net`}>
           <SiDiscord size={24} />
         </a>
@@ -14,9 +17,6 @@ export default function FooterBlock() {
         </a>
         <a href={`https://github.com/PureFuncInc`}>
           <SiGithub size={24} />
-        </a>
-        <a href={`mailto:help@purefunc.net`}>
-          <SiGmail size={24} />
         </a>
         <a href={`https://linkedin.com/company/purefuncinc`}>
           <SiLinkedin size={24} />
@@ -30,8 +30,8 @@ export default function FooterBlock() {
         <img
           src={ImageBlackLogo}
           alt={`$_purefunc Black Logo`}
-          width={24}
-          height={24}
+          width={28}
+          height={28}
         className={`hidden md:block`}/>
       </div>
     </footer>

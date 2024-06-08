@@ -1,6 +1,6 @@
 import ImageNavyLogo from '../assets/purefunc_navy.webp'
 import React from 'react'
-import { SiDiscord, SiFacebook, SiGithub, SiGmail, SiLinkedin, SiYoutube } from 'react-icons/si'
+import { SiDiscord, SiFacebook, SiGithub, SiLinkedin, SiWordpress, SiYoutube } from 'react-icons/si'
 
 export default function HeaderBlock() {
   return (
@@ -13,6 +13,9 @@ export default function HeaderBlock() {
           height={60} />
       </a>
       <div className={`flex flex-row items-center gap-8`}>
+        <a href={`/blog`} className={`hidden md:block`}>
+          <SiWordpress size={24} />
+        </a>
         <a href={`https://discord.purefunc.net`} className={`hidden md:block`}>
           <SiDiscord size={24} />
         </a>
@@ -21,9 +24,6 @@ export default function HeaderBlock() {
         </a>
         <a href={`https://github.com/PureFuncInc`} className={`hidden md:block`}>
           <SiGithub size={24} />
-        </a>
-        <a href={`mailto:help@purefunc.net`} className={`hidden md:block`}>
-          <SiGmail size={24} />
         </a>
         <a href={`https://linkedin.com/company/purefuncinc`} className={`hidden md:block`}>
           <SiLinkedin size={24} />

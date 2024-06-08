@@ -4,7 +4,7 @@ import MainBlock from './components/main-block'
 // import ServiceBlock from './components/service-block'
 // import ProductBlock from './components/product-block'
 // import TechniqueBlock from './components/technique-block'
-// import TeamBlock from './components/team-block'
+import TeamBlock from './components/team-block'
 import FooterBlock from './components/footer-block'
 
 export default function App() {
@@ -15,7 +15,7 @@ export default function App() {
       {/*<ServiceBlock />*/}
       {/*<ProductBlock />*/}
       {/*<TechniqueBlock />*/}
-      {/*<TeamBlock />*/}
+      <TeamBlock />
       <FooterBlock />
     </div>
   )
