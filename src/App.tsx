@@ -5,7 +5,7 @@ import Blog from './pages/blog'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={`/`}>
       <Routes>
         <Route path={`/`} element={<Home />} />
         <Route path={`/blog/*`} element={<Blog />} />
