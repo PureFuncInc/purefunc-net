@@ -4,7 +4,7 @@ import { SiDiscord, SiFacebook, SiGithub, SiLinkedin, SiWordpress, SiYoutube } f
 
 export default function HeaderBlock() {
   return (
-    <header className={`mx-8 lg:mx-24 xl:mx-36 2xl:mx-48 mt-8 gap-2 flex flex-wrap items-center justify-between text-[#FFFFFF]`}>
+    <header className={`mx-8 mt-8 flex flex-wrap items-center justify-between gap-2 text-[#FFFFFF] lg:mx-24 xl:mx-36 2xl:mx-48`}>
       <a href={`/`}>
         <img
           src={ImageNavyLogo}

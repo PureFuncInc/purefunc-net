@@ -4,8 +4,8 @@ import { SiDiscord, SiFacebook, SiGithub, SiLinkedin, SiWordpress, SiYoutube } f
 
 export default function FooterBlock() {
   return (
-    <footer className={`mx-8 lg:mx-24 xl:mx-36 2xl:mx-48 mb-8 gap-2 flex flex-wrap items-center justify-between text-[#FFFFFF]`}>
-      <div className={`flex flex-row items-center gap-8 min-h-[60px]`}>
+    <footer className={`mx-8 mb-8 flex flex-wrap items-center justify-between gap-2 text-[#FFFFFF] lg:mx-24 xl:mx-36 2xl:mx-48`}>
+      <div className={`flex min-h-[60px] flex-row items-center gap-8`}>
         <a href={`/blog`}>
           <SiWordpress size={24} />
         </a>
@@ -25,7 +25,7 @@ export default function FooterBlock() {
           <SiYoutube size={24} />
         </a>
       </div>
-      <div className={`flex flex-wrap gap-2 items-center`}>
+      <div className={`flex flex-wrap items-center gap-2`}>
         Copyright &copy; 2021-{(new Date()).getFullYear()} PureFunc Co., Ltd. All Rights Reserved.
         <img
           src={ImageBlackLogo}

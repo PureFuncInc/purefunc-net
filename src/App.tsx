@@ -3,7 +3,7 @@ import HeaderBlock from './components/header-block'
 import MainBlock from './components/main-block'
 // import ServiceBlock from './components/service-block'
 // import ProductBlock from './components/product-block'
-// import TechniqueBlock from './components/technique-block'
+import TechniqueBlock from './components/technique-block'
 import TeamBlock from './components/team-block'
 import FooterBlock from './components/footer-block'
 
@@ -14,7 +14,7 @@ export default function App() {
       <MainBlock />
       {/*<ServiceBlock />*/}
       {/*<ProductBlock />*/}
-      {/*<TechniqueBlock />*/}
+      <TechniqueBlock />
       <TeamBlock />
       <FooterBlock />
     </div>

@@ -31,7 +31,7 @@ const data = [
 
 export default function TechniqueBlock() {
   return (
-    <section className={`mx-48 flex flex-col`}>
+    <section className={`mx-8 hidden md:flex md:flex-col`}>
       <h2
         id={`technique`}
         className={`h-0 text-purefunc-1`}>
@@ -39,7 +39,7 @@ export default function TechniqueBlock() {
       </h2>
       <WordCloud
         data={data}
-        height={200}
+        height={256}
         rotate={0}/>
     </section>
   )
