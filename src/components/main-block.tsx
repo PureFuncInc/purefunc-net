@@ -9,7 +9,6 @@ export default function MainBlock() {
         <a href={`/blog`}>技術網誌</a>
         {/*<a href={`#services`}>服務類型</a>*/}
         {/*<a href={`#product`}>產品專案</a>*/}
-        <a href={`#technique`}>技術領域</a>
         <a href={`#team`}>團隊成員</a>
       </nav>
       <img

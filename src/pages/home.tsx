@@ -9,14 +9,14 @@ import FooterBlock from '../components/footer-block'
 
 export default function Home() {
   return (
-    <div className={`flex w-full flex-col gap-16`}>
-      <HeaderBlock />
+    <div className={`flex w-full flex-col gap-16 bg-purefunc-1`}>
+      <HeaderBlock theme={`dark`}/>
       <MainBlock />
       {/*<ServiceBlock />*/}
       {/*<ProductBlock />*/}
       <TechniqueBlock />
       <TeamBlock />
-      <FooterBlock />
+      <FooterBlock theme={`dark`}/>
     </div>
   )
 }

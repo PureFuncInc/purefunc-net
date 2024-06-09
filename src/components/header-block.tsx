@@ -2,9 +2,16 @@ import ImageNavyLogo from '../assets/purefunc_navy.webp'
 import React from 'react'
 import { SiDiscord, SiFacebook, SiGithub, SiLinkedin, SiWordpress, SiYoutube } from 'react-icons/si'
 
-export default function HeaderBlock() {
+interface Props {
+  theme: string
+}
+
+export default function HeaderBlock({theme}: Props) {
+  const textColor = theme === 'light' ? 'text-[#444444]' : 'text-[#FFFFFF]'
+  const borderColor = theme === 'light' ? 'border-[#444444]' : 'border-[#FFFFFF]'
+
   return (
-    <header className={`mx-8 mt-8 flex flex-wrap items-center justify-between gap-2 text-[#FFFFFF] lg:mx-24 xl:mx-36 2xl:mx-48`}>
+    <header className={`mx-8 mt-8 flex flex-wrap items-center justify-between gap-2 ${textColor} lg:mx-24 xl:mx-36 2xl:mx-48`}>
       <a href={`/`}>
         <img
           src={ImageNavyLogo}
@@ -33,7 +40,7 @@ export default function HeaderBlock() {
         </a>
         <a
           href={`#contact`}
-          className={`rounded-xl border-2 border-[#FFFFFF] px-4 py-2`}>
+          className={`rounded-xl border-2 ${borderColor} px-4 py-2`}>
           聯絡我們
         </a>
       </div>

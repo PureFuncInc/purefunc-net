@@ -2,9 +2,15 @@ import ImageBlackLogo from '../assets/purefunc_black.webp'
 import React from 'react'
 import { SiDiscord, SiFacebook, SiGithub, SiLinkedin, SiWordpress, SiYoutube } from 'react-icons/si'
 
-export default function FooterBlock() {
+interface Props {
+  theme: string
+}
+
+export default function FooterBlock({theme}: Props) {
+  const textColor = theme === 'light' ? 'text-[#444444]' : 'text-[#FFFFFF]'
+
   return (
-    <footer className={`mx-8 mb-8 flex flex-wrap items-center justify-between gap-2 text-[#FFFFFF] lg:mx-24 xl:mx-36 2xl:mx-48`}>
+    <footer className={`mx-8 mb-8 flex flex-wrap items-center justify-between gap-2 ${textColor} lg:mx-24 xl:mx-36 2xl:mx-48`}>
       <div className={`flex min-h-[60px] flex-row items-center gap-8`}>
         <a href={`/blog`}>
           <SiWordpress size={24} />

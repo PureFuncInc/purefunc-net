@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Markdown from 'react-markdown'
+import HeaderBlock from '../components/header-block'
+import FooterBlock from '../components/footer-block'
 
 export default function Blog() {
   const [content, setContent] = useState('');
@@ -16,8 +18,12 @@ export default function Blog() {
   })
 
   return (
-    <article>
-      <Markdown className={`prose lg:prose-lg xl:prose-xl`}>{content}</Markdown>
-    </article>
+    <div className={`flex w-full flex-col gap-16`}>
+      <HeaderBlock theme={`light`} />
+      <article className={`mx-auto`}>
+        <Markdown className={`prose lg:prose-lg xl:prose-xl`}>{content}</Markdown>
+      </article>
+      <FooterBlock theme={`light`} />
+    </div>
   )
 }

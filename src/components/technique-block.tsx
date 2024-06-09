@@ -31,12 +31,7 @@ const data = [
 
 export default function TechniqueBlock() {
   return (
-    <section className={`mx-8 hidden md:flex md:flex-col`}>
-      <h2
-        id={`technique`}
-        className={`h-0 text-purefunc-1`}>
-        TECHNIQUES
-      </h2>
+    <section className={`mx-8 hidden md:block`}>
       <WordCloud
         data={data}
         height={256}
