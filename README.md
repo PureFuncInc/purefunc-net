@@ -48,7 +48,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## Commands
 ```bash
 npx create-react-app purefunc-net --template typescript
-npm install tailwindcss-animated react-icons react-d3-clouda react-markdown react-router-dom @tailwindcss/typography
+npm install tailwindcss-animated react-icons react-d3-cloud react-markdown react-router-dom @tailwindcss/typography
 npm install --save-dev @babel/plugin-proposal-private-property-in-object
 npm install --save-dev tailwindcss autoprefixer eslint-plugin-react eslint-plugin-tailwindcss
 npm install --save-dev --save-exact prettier prettier-plugin-tailwindcss
