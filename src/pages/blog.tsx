@@ -2,15 +2,15 @@ import React, { useEffect, useState } from 'react'
 import Markdown from 'react-markdown'
 import HeaderBlock from '../components/header-block'
 import FooterBlock from '../components/footer-block'
+import { useParams } from 'react-router-dom'
 
 export default function Blog() {
   const [content, setContent] = useState('');
-  const paths: string[] = window.location.pathname.split('/')
-
-  const index = paths[2] === undefined ? '1' : paths[2].toString()
+  const { id } = useParams()
+  const articleId = id ? id : '1'
 
   useEffect(() => {
-    fetch(`/articles/${index}.md`)
+    fetch(`/articles/${articleId}.md`)
       .then(res => res.text())
       .then(md => {
         setContent(md)
