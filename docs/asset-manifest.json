@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7641b8ec.css",
+    "main.js": "/static/js/main.b7c93dda.js",
+    "static/media/imac.webp": "/static/media/imac.406f7852423d385e0385.webp",
+    "static/media/team-shawn.webp": "/static/media/team-shawn.bdc88840950b8227482c.webp",
+    "static/media/team-carlos.webp": "/static/media/team-carlos.0fc507686db014b26e89.webp",
+    "static/media/team-vincent.webp": "/static/media/team-vincent.b0dcb3c72b992b632844.webp",
+    "static/media/team-daniel.webp": "/static/media/team-daniel.3dbe9f245fde31e30efb.webp",
+    "static/media/team-wade.webp": "/static/media/team-wade.e6030a20ea8e6443ada2.webp",
+    "static/media/team-nelson.webp": "/static/media/team-nelson.1716012a974dcc1a6fc8.webp",
+    "static/media/purefunc_navy.webp": "/static/media/purefunc_navy.755b7896c83902af4ffc.webp",
+    "index.html": "/index.html",
+    "static/media/purefunc_black.webp": "/static/media/purefunc_black.8a3db0c6dce7b0ebff9e.webp",
+    "main.7641b8ec.css.map": "/static/css/main.7641b8ec.css.map",
+    "main.b7c93dda.js.map": "/static/js/main.b7c93dda.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7641b8ec.css",
+    "static/js/main.b7c93dda.js"
+  ]
+}
