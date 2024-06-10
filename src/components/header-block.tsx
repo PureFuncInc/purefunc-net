@@ -20,7 +20,7 @@ export default function HeaderBlock({theme}: Props) {
           height={60} />
       </a>
       <div className={`flex flex-row items-center gap-8`}>
-        <a href={`/blog`} className={`hidden md:block`}>
+        <a href={`/#/blog`} className={`hidden md:block`}>
           <SiWordpress size={24} />
         </a>
         <a href={`https://discord.purefunc.net`} className={`hidden md:block`}>

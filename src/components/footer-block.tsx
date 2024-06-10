@@ -12,7 +12,7 @@ export default function FooterBlock({theme}: Props) {
   return (
     <footer className={`mx-8 mb-8 flex flex-wrap items-center justify-between gap-2 ${textColor} lg:mx-24 xl:mx-36 2xl:mx-48`}>
       <div className={`flex min-h-[60px] flex-row items-center gap-8`}>
-        <a href={`/blog`}>
+        <a href={`/#/blog`}>
           <SiWordpress size={24} />
         </a>
         <a href={`https://discord.purefunc.net`}>
