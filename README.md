@@ -1,4 +1,5 @@
 # Official website repository of $_purefunc
+![](https://github.com/PureFuncInc/purefunc-net/actions/workflows/build.yml/badge.svg)
 
 ![](images/banner.webp)
 
