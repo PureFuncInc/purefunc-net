@@ -7,7 +7,7 @@ import { useParams } from 'react-router-dom'
 export default function Blog() {
   const [content, setContent] = useState('');
   const { id } = useParams()
-  const articleId = id ? id : '3'
+  const articleId = id ? id : '1'
 
   useEffect(() => {
     fetch(`/articles/${articleId}.md`)
