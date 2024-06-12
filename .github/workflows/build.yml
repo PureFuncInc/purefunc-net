@@ -1,8 +1,8 @@
 name: Build
 
 on:
-  issues:
-    types: [opened]
+  schedule:
+    - cron: '56 11,23 * * *'
 
 jobs:
   deploy:
