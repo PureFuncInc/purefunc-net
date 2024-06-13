@@ -24,9 +24,4 @@ jobs:
         run: sh .run/build.sh
 
       - name: Deploy
-        run: |
-          git config --global user.name github-actions
-          git config --global user.email yfr.huang@hotmail.com
-          git add -A
-          git commit -m "🚀 Deployed by GitHub Actions"
-          git push
+        run: sh .run/ci-commit-push.sh
