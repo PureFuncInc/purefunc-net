@@ -1,6 +1,4 @@
-const fs = require('node:fs')
-
-console.log("fetch issue started")
+import fs from 'node:fs'
 
 const token = process.env.GITHUB_TOKEN
 
@@ -10,7 +8,7 @@ let headers = {
   'X-GitHub-Api-Version': '2022-11-28'
 }
 
-fetch('https://api.github.com/repos/PureFuncInc/purefunc-net/issues', {method: 'GET', headers: headers})
+fetch('https://api.github.com/repos/PureFuncInc/purefunc-net/issues', { method: 'GET', headers: headers })
   .then(response => response.json())
   // .then(data => console.log(data))
   .then(data => {
