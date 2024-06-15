@@ -5,7 +5,7 @@ on:
     - cron: '5 6 * * *'
 
 jobs:
-  on-schedule-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:

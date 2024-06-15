@@ -6,7 +6,7 @@ on:
       - unlabeled
 
 jobs:
-  on-issue-unlabeled-deploy:
+  deploy:
     if: ${{ (github.event.label.name == 'draft') }}
     runs-on: ubuntu-latest
 
