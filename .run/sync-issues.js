@@ -1,14 +1,16 @@
 const fs = require('node:fs')
 
-const token = process.argv[2]
-
-let headers = {
-  'Accept': 'application/vnd.github+json',
-  'Authorization': `Bearer ${token}`,
-  'X-GitHub-Api-Version': '2022-11-28'
-}
-
-fetch('https://api.github.com/repos/PureFuncInc/purefunc-net/issues', { method: 'GET', headers: headers })
+fetch(
+  'https://api.github.com/repos/PureFuncInc/purefunc-net/issues',
+  {
+    method: 'GET',
+    headers: {
+      'Accept': 'application/vnd.github+json',
+      'Authorization': `Bearer ${process.argv[2]}`,
+      'X-GitHub-Api-Version': '2022-11-28'
+    }
+  }
+)
   .then(response => response.json())
   .then(data => {
     let script = 'export interface Article {\n'
@@ -40,3 +42,8 @@ fetch('https://api.github.com/repos/PureFuncInc/purefunc-net/issues', { method: 
       })
     })
   )
+  .finally(() => {
+    const data = new Date().toISOString()
+    fs.writeFile('public/ts', data, () => {})
+    console.log('Sync issues completed!')
+  })
