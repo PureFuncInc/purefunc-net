@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm -rf dist
+rm -rf docs
 npm run build
-mv build dist
-cp .run/CNAME dist
+mv build docs
+cp .run/CNAME docs
