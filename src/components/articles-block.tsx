@@ -15,7 +15,7 @@ export default function ArticlesBlock() {
               <Link
                 key={`article${article.number}`}
                 to={`/blog/${article.number}`}>
-                <span className={`hidden md:inline md:mr-2`}>{article.createdAt.substring(0, 10)}</span>
+                <span className={`hidden md:mr-2 md:inline`}>{article.createdAt.substring(0, 10)}</span>
                 <span className={`border-b-2 border-[#000000]`}>{article.title}</span>
               </Link>
             )
@@ -31,7 +31,7 @@ export default function ArticlesBlock() {
               <Link
                 key={`article${article.number}`}
                 to={`/blog/${article.number}`}>
-                <span className={`hidden md:inline md:mr-2`}>{article.createdAt.substring(0, 10)}</span>
+                <span className={`hidden md:mr-2 md:inline`}>{article.createdAt.substring(0, 10)}</span>
                 <span className={`border-b-2 border-[#000000]`}>{article.title}</span>
               </Link>
             )
@@ -47,7 +47,7 @@ export default function ArticlesBlock() {
               <Link
                 key={`article${article.number}`}
                 to={`/blog/${article.number}`}>
-                <span className={`hidden md:inline md:mr-2`}>{article.createdAt.substring(0, 10)}</span>
+                <span className={`hidden md:mr-2 md:inline`}>{article.createdAt.substring(0, 10)}</span>
                 <span className={`border-b-2 border-[#000000]`}>{article.title}</span>
               </Link>
             )
@@ -63,7 +63,7 @@ export default function ArticlesBlock() {
               <Link
                 key={`article${article.number}`}
                 to={`/blog/${article.number}`}>
-                <span className={`hidden md:inline md:mr-2`}>{article.createdAt.substring(0, 10)}</span>
+                <span className={`hidden md:mr-2 md:inline`}>{article.createdAt.substring(0, 10)}</span>
                 <span className={`border-b-2 border-[#000000]`}>{article.title}</span>
               </Link>
             )
