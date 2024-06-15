@@ -3,7 +3,7 @@ name: Build
 on:
   schedule:
 #    - cron: '56 3,9,15,21 * * *'
-    - cron: '56 */5 * * *'
+    - cron: '0/5 * * * *'
 
 jobs:
   deploy:
