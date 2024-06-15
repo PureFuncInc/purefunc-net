@@ -1,6 +1,6 @@
-import fs from 'node:fs'
+const fs = require('node:fs')
 
-const token = process.env.GITHUB_TOKEN
+const token = process.argv[2]
 
 let headers = {
   'Accept': 'application/vnd.github+json',
@@ -10,13 +10,33 @@ let headers = {
 
 fetch('https://api.github.com/repos/PureFuncInc/purefunc-net/issues', { method: 'GET', headers: headers })
   .then(response => response.json())
-  // .then(data => console.log(data))
   .then(data => {
+    let script = 'export interface Article {\n'
+    script += '    number: number\n'
+    script += '    title: string\n'
+    script += '}\n'
+    script += '\n'
+    script += 'export const Articles: Article[] = [\n'
     data.forEach(issue => {
+      const { number, title } = issue
+      script += '    {\n'
+      script += `        number: ${number},\n`
+      script += `        title: '${title}',\n`
+      script += '    },\n'
+    })
+    script += ']\n'
+
+    fs.writeFile('src/components/articles.ts', script, (err) => {
+      if (err) throw err
+      console.log('The articles.ts has been saved!')
+    })
+
+    return data
+  })
+  .then(data => data.forEach(issue => {
       fs.writeFile(`public/articles/${issue.number}.md`, issue.body, (err) => {
         if (err) throw err
-        console.log('The file has been saved!')
+        console.log(`The article${issue.number}.md has been saved!`)
       })
     })
-  })
-
+  )
