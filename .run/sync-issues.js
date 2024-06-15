@@ -43,7 +43,7 @@ fetch(
     })
   )
   .finally(() => {
-    const data = new Date().toISOString()
-    fs.writeFile('public/ts', data, () => {})
+    const data = `Built at ${new Date().toISOString()}`
+    fs.writeFile('public/timestamp', data, () => {})
     console.log('Sync issues completed!')
   })
