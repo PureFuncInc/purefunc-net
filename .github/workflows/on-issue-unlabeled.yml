@@ -1,4 +1,4 @@
-name: Build
+name: On Issue Unlabeled
 
 on:
   issues:
@@ -6,7 +6,7 @@ on:
       - unlabeled
 
 jobs:
-  on-issues-unlabeled-deploy:
+  on-issue-unlabeled-deploy:
     if: ${{ (github.event.label.name == 'build') }}
     runs-on: ubuntu-latest
 
