@@ -14,19 +14,25 @@ fetch(
   .then(response => response.json())
   .then(data => {
     let script = 'export interface Article {\n'
-    script += '    number: number\n'
-    script += '    title: string\n'
-    script += '    createdAt: string\n'
+    script += '  number: number\n'
+    script += '  title: string\n'
+    script += '  labels: string[]\n'
+    script += '  createdAt: string\n'
     script += '}\n'
     script += '\n'
     script += 'export const Articles: Article[] = [\n'
     data.forEach(issue => {
-      const { number, title, created_at } = issue
-      script += '    {\n'
-      script += `        number: ${number},\n`
-      script += `        title: '${title}',\n`
-      script += `        createdAt: '${created_at}',\n`
-      script += '    },\n'
+      const { number, title, labels, created_at } = issue
+      const labelsStr = labels
+        .map(label => '\'' + label.name + '\'')
+        .join(',')
+
+      script += '  {\n'
+      script += `    number: ${number},\n`
+      script += `    title: '${title}',\n`
+      script += `    labels: [${labelsStr}],\n`
+      script += `    createdAt: '${created_at}',\n`
+      script += '  },\n'
     })
     script += ']\n'
 
