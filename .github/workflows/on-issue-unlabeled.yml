@@ -7,7 +7,7 @@ on:
 
 jobs:
   on-issue-unlabeled-deploy:
-    if: ${{ (github.event.label.name == 'build') }}
+    if: ${{ (github.event.label.name == 'draft') }}
     runs-on: ubuntu-latest
 
     steps:

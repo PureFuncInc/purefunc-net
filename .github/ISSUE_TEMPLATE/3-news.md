@@ -1,12 +1,12 @@
 ---
-name: 🔗 reference
-about: article referenced by others
+name: ⚡️ news
+about: technical news
 title: ''
-labels:
-  - reference
-  - build
 assignees:
   - Jian-Min-Huang
+labels:
+  - news
+  - draft
 ---
 
 ### 🏞 縮圖
