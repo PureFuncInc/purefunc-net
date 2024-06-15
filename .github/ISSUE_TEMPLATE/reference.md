@@ -2,8 +2,11 @@
 name: 🔗 reference
 about: article referenced by others
 title: ''
-labels: reference
-assignees: Jian-Min-Huang
+labels:
+  - reference
+  - build
+assignees:
+  - Jian-Min-Huang
 ---
 
 ### 🏞 縮圖

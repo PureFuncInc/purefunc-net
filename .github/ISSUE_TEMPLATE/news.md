@@ -1,9 +1,12 @@
 ---
-name: 🦄 news
+name: ⚡️ news
 about: technical news
 title: ''
-labels: news
-assignees: Jian-Min-Huang
+labels:
+  - news
+  - build
+assignees:
+  - Jian-Min-Huang
 ---
 
 ### 🏞 縮圖
