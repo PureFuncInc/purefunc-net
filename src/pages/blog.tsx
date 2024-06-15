@@ -20,8 +20,8 @@ export default function Blog() {
       <HeaderBlock theme={`light`} />
       {
         id
-          ? <ArticlesBlock />
-          : <ArticleBlock content={content} />
+          ? <ArticleBlock content={content} />
+          : <ArticlesBlock />
       }
       <FooterBlock theme={`light`} />
     </div>
