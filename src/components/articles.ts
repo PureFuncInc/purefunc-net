@@ -7,6 +7,18 @@ export interface Article {
 
 export const Articles: Article[] = [
   {
+    number: 15,
+    title: 'Line TW 內部分享演講的投影片專區',
+    labels: ['self','draft'],
+    createdAt: '2024-06-16T08:48:25Z',
+  },
+  {
+    number: 14,
+    title: '分享自己常用的 JetBrains Plugins',
+    labels: ['self','draft'],
+    createdAt: '2024-06-16T08:47:17Z',
+  },
+  {
     number: 13,
     title: 'GitHub 個人頁的美化',
     labels: ['self'],
