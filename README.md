@@ -1,5 +1,5 @@
 # Official website repository of $_purefunc
-![](https://github.com/PureFuncInc/purefunc-net/actions/workflows/build.yml/badge.svg)
+![](https://github.com/PureFuncInc/purefunc-net/actions/workflows/on-schedule.yml/badge.svg) ![](https://github.com/PureFuncInc/purefunc-net/actions/workflows/on-issue-unlabeled.yml/badge.svg)
 
 ![](images/banner.webp)
 
