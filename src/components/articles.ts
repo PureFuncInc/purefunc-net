@@ -7,6 +7,36 @@ export interface Article {
 
 export const Articles: Article[] = [
   {
+    number: 13,
+    title: 'GitHub 個人頁的美化',
+    labels: ['self'],
+    createdAt: '2024-06-16T03:28:43Z',
+  },
+  {
+    number: 12,
+    title: '有夠淘氣',
+    labels: ['self','draft'],
+    createdAt: '2024-06-16T03:26:48Z',
+  },
+  {
+    number: 11,
+    title: '整理了 20 年以來一些鐵人賽的得獎名單',
+    labels: ['self','draft'],
+    createdAt: '2024-06-16T03:24:46Z',
+  },
+  {
+    number: 10,
+    title: '技術封建主義',
+    labels: ['self','draft'],
+    createdAt: '2024-06-16T03:20:58Z',
+  },
+  {
+    number: 9,
+    title: '把 GitHub Issues 當作簡單的 CRM 使用',
+    labels: ['self','draft'],
+    createdAt: '2024-06-16T02:52:19Z',
+  },
+  {
     number: 8,
     title: '真。實體開單',
     labels: ['meme'],
