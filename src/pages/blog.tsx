@@ -6,22 +6,22 @@ import ArticlesBlock from '../components/articles-block'
 import ArticleBlock from '../components/article-block'
 
 export default function Blog() {
-  const [content, setContent] = useState('');
+  const [content, setContent] = useState('')
   const { id } = useParams()
 
   useEffect(() => {
-    fetch(`/articles/${(id ? id : '1')}.md`)
-      .then(res => res.text())
-      .then(md => setContent(md))
+    if (id) {
+      fetch(`/articles/${id ? id : '-1'}.md`)
+        .then(res => res.text())
+        .then(md => setContent(md))
+    }
   })
 
   return (
     <div className={`flex w-full flex-col gap-16`}>
       <HeaderBlock theme={`light`} />
       {
-        id
-          ? <ArticleBlock content={content} />
-          : <ArticlesBlock />
+        id ? <ArticleBlock content={content} /> : <ArticlesBlock />
       }
       <FooterBlock theme={`light`} />
     </div>
