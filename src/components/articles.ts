@@ -1,3 +1,4 @@
+
 export interface Article {
   number: number
   title: string
@@ -107,5 +108,5 @@ export const Articles: Article[] = [
     title: '整理了 Intellij IDEA 2020 到 2022 年底的一些更新',
     labels: ['self'],
     createdAt: '2024-06-08T14:09:11Z',
-  },
+  }
 ]

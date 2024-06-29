@@ -1,3 +1,11 @@
+
+import React from 'react'
+import HeaderBlock from '../components/header-block'
+import FooterBlock from '../components/footer-block'
+import Markdown from 'react-markdown'
+
+export default function Blog1() {
+  const content = `
 ### 🏞 縮圖
 ![DALL·E 2024-06-16 16 51 45 - A vibrant thumbnail for a blog post about an Intellij IDEA plugin introduction  The image features the Intellij IDEA logo prominently along with icons](https://github.com/PureFuncInc/purefunc-net/assets/6296280/6db7d09f-35b6-4534-a13e-0000acf646b9)
 
@@ -26,3 +34,15 @@
   *  New Intellij IDEA UI，超像 VSCode
   *  Database Tool Window 終於 Support Redis 拉！
   * QA 相關的功能進步也非常明顯，果然也順勢出了一個專用的IDE，Aqua
+`
+
+  return (
+    <div className={`flex w-full flex-col gap-16`}>
+      <HeaderBlock theme={`light`} />
+      <article className={`mx-auto`}>
+        <Markdown className={`prose lg:prose-lg xl:prose-xl`}>{content}</Markdown>
+      </article>
+      <FooterBlock theme={`light`} />
+    </div>
+  )
+}

@@ -1,3 +1,11 @@
+
+import React from 'react'
+import HeaderBlock from '../components/header-block'
+import FooterBlock from '../components/footer-block'
+import Markdown from 'react-markdown'
+
+export default function Blog3() {
+  const content = `
 ### 🏞 縮圖
 ![DALL·E 2024-06-16 17 01 24 - A news-themed thumbnail showing a computer screen with a search engine displayed, documents beside it, and a person's hand leaking the documents  The ](https://github.com/PureFuncInc/purefunc-net/assets/6296280/3cca3dc5-9255-49cb-a501-0c9c51459d25)
 
@@ -7,3 +15,15 @@
 ### 📜 心得
 * 男人的嘴騙人的鬼，科技巨頭也是一樣
 * 不要看他說了什麼，要看他們做了什麼 😏 
+`
+
+  return (
+    <div className={`flex w-full flex-col gap-16`}>
+      <HeaderBlock theme={`light`} />
+      <article className={`mx-auto`}>
+        <Markdown className={`prose lg:prose-lg xl:prose-xl`}>{content}</Markdown>
+      </article>
+      <FooterBlock theme={`light`} />
+    </div>
+  )
+}
