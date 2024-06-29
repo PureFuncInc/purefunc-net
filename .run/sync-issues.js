@@ -87,6 +87,7 @@ export default function Blog${issue.number}() {
     let blogRoutes = data.map(issue => `        <Route path={\`/blog/${issue.number}\`} element={<Blog${issue.number} />} />`).join('\n')
 
     let script = `
+import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/home'
 import Blog from './pages/blog'

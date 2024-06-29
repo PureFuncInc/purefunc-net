@@ -1,4 +1,5 @@
 
+import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/home'
 import Blog from './pages/blog'
@@ -26,23 +27,23 @@ export default function App() {
       <Routes>
         <Route path={`/`} element={<Home />} />
         <Route path={`/blog`} element={<Blog />} />
-        <Route path={`/blog17`} element={<Blog17 />} />
-        <Route path={`/blog16`} element={<Blog16 />} />
-        <Route path={`/blog15`} element={<Blog15 />} />
-        <Route path={`/blog14`} element={<Blog14 />} />
-        <Route path={`/blog13`} element={<Blog13 />} />
-        <Route path={`/blog12`} element={<Blog12 />} />
-        <Route path={`/blog11`} element={<Blog11 />} />
-        <Route path={`/blog10`} element={<Blog10 />} />
-        <Route path={`/blog9`} element={<Blog9 />} />
-        <Route path={`/blog8`} element={<Blog8 />} />
-        <Route path={`/blog7`} element={<Blog7 />} />
-        <Route path={`/blog6`} element={<Blog6 />} />
-        <Route path={`/blog5`} element={<Blog5 />} />
-        <Route path={`/blog4`} element={<Blog4 />} />
-        <Route path={`/blog3`} element={<Blog3 />} />
-        <Route path={`/blog2`} element={<Blog2 />} />
-        <Route path={`/blog1`} element={<Blog1 />} />
+        <Route path={`/blog/17`} element={<Blog17 />} />
+        <Route path={`/blog/16`} element={<Blog16 />} />
+        <Route path={`/blog/15`} element={<Blog15 />} />
+        <Route path={`/blog/14`} element={<Blog14 />} />
+        <Route path={`/blog/13`} element={<Blog13 />} />
+        <Route path={`/blog/12`} element={<Blog12 />} />
+        <Route path={`/blog/11`} element={<Blog11 />} />
+        <Route path={`/blog/10`} element={<Blog10 />} />
+        <Route path={`/blog/9`} element={<Blog9 />} />
+        <Route path={`/blog/8`} element={<Blog8 />} />
+        <Route path={`/blog/7`} element={<Blog7 />} />
+        <Route path={`/blog/6`} element={<Blog6 />} />
+        <Route path={`/blog/5`} element={<Blog5 />} />
+        <Route path={`/blog/4`} element={<Blog4 />} />
+        <Route path={`/blog/3`} element={<Blog3 />} />
+        <Route path={`/blog/2`} element={<Blog2 />} />
+        <Route path={`/blog/1`} element={<Blog1 />} />
       </Routes>
     </>
   )
