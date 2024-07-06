@@ -3,6 +3,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/home'
 import Blog from './pages/blog'
+import Blog18 from './pages/blog18'
 import Blog17 from './pages/blog17'
 import Blog16 from './pages/blog16'
 import Blog15 from './pages/blog15'
@@ -27,6 +28,7 @@ export default function App() {
       <Routes>
         <Route path={`/`} element={<Home />} />
         <Route path={`/blog`} element={<Blog />} />
+        <Route path={`/blog/18`} element={<Blog18 />} />
         <Route path={`/blog/17`} element={<Blog17 />} />
         <Route path={`/blog/16`} element={<Blog16 />} />
         <Route path={`/blog/15`} element={<Blog15 />} />

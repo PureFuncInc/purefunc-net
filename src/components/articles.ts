@@ -8,6 +8,12 @@ export interface Article {
 
 export const Articles: Article[] = [
   {
+    number: 18,
+    title: 'DevToys',
+    labels: ['self','draft'],
+    createdAt: '2024-07-06T01:34:07Z',
+  },
+  {
     number: 17,
     title: 'Programmers are afraid of light IDE theme',
     labels: ['meme'],
