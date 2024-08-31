@@ -8,6 +8,12 @@ export interface Article {
 
 export const Articles: Article[] = [
   {
+    number: 19,
+    title: 'How to Turn Your iPhone Screen Red',
+    labels: ['reference'],
+    createdAt: '2024-08-31T17:40:02Z',
+  },
+  {
     number: 18,
     title: 'DevToys',
     labels: ['self','draft'],
