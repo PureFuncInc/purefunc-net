@@ -3,6 +3,24 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/home'
 import Blog from './pages/blog'
+import Blog37 from './pages/blog37'
+import Blog36 from './pages/blog36'
+import Blog35 from './pages/blog35'
+import Blog34 from './pages/blog34'
+import Blog33 from './pages/blog33'
+import Blog32 from './pages/blog32'
+import Blog31 from './pages/blog31'
+import Blog30 from './pages/blog30'
+import Blog29 from './pages/blog29'
+import Blog28 from './pages/blog28'
+import Blog27 from './pages/blog27'
+import Blog26 from './pages/blog26'
+import Blog25 from './pages/blog25'
+import Blog24 from './pages/blog24'
+import Blog23 from './pages/blog23'
+import Blog22 from './pages/blog22'
+import Blog21 from './pages/blog21'
+import Blog20 from './pages/blog20'
 import Blog19 from './pages/blog19'
 import Blog18 from './pages/blog18'
 import Blog17 from './pages/blog17'
@@ -15,13 +33,6 @@ import Blog11 from './pages/blog11'
 import Blog10 from './pages/blog10'
 import Blog9 from './pages/blog9'
 import Blog8 from './pages/blog8'
-import Blog7 from './pages/blog7'
-import Blog6 from './pages/blog6'
-import Blog5 from './pages/blog5'
-import Blog4 from './pages/blog4'
-import Blog3 from './pages/blog3'
-import Blog2 from './pages/blog2'
-import Blog1 from './pages/blog1'
 
 export default function App() {
   return (
@@ -29,6 +40,24 @@ export default function App() {
       <Routes>
         <Route path={`/`} element={<Home />} />
         <Route path={`/blog`} element={<Blog />} />
+        <Route path={`/blog/37`} element={<Blog37 />} />
+        <Route path={`/blog/36`} element={<Blog36 />} />
+        <Route path={`/blog/35`} element={<Blog35 />} />
+        <Route path={`/blog/34`} element={<Blog34 />} />
+        <Route path={`/blog/33`} element={<Blog33 />} />
+        <Route path={`/blog/32`} element={<Blog32 />} />
+        <Route path={`/blog/31`} element={<Blog31 />} />
+        <Route path={`/blog/30`} element={<Blog30 />} />
+        <Route path={`/blog/29`} element={<Blog29 />} />
+        <Route path={`/blog/28`} element={<Blog28 />} />
+        <Route path={`/blog/27`} element={<Blog27 />} />
+        <Route path={`/blog/26`} element={<Blog26 />} />
+        <Route path={`/blog/25`} element={<Blog25 />} />
+        <Route path={`/blog/24`} element={<Blog24 />} />
+        <Route path={`/blog/23`} element={<Blog23 />} />
+        <Route path={`/blog/22`} element={<Blog22 />} />
+        <Route path={`/blog/21`} element={<Blog21 />} />
+        <Route path={`/blog/20`} element={<Blog20 />} />
         <Route path={`/blog/19`} element={<Blog19 />} />
         <Route path={`/blog/18`} element={<Blog18 />} />
         <Route path={`/blog/17`} element={<Blog17 />} />
@@ -41,13 +70,6 @@ export default function App() {
         <Route path={`/blog/10`} element={<Blog10 />} />
         <Route path={`/blog/9`} element={<Blog9 />} />
         <Route path={`/blog/8`} element={<Blog8 />} />
-        <Route path={`/blog/7`} element={<Blog7 />} />
-        <Route path={`/blog/6`} element={<Blog6 />} />
-        <Route path={`/blog/5`} element={<Blog5 />} />
-        <Route path={`/blog/4`} element={<Blog4 />} />
-        <Route path={`/blog/3`} element={<Blog3 />} />
-        <Route path={`/blog/2`} element={<Blog2 />} />
-        <Route path={`/blog/1`} element={<Blog1 />} />
       </Routes>
     </>
   )

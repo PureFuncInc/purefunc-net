@@ -8,6 +8,114 @@ export interface Article {
 
 export const Articles: Article[] = [
   {
+    number: 37,
+    title: '支撐 Netflix 運作的神祕硬體，Reddit 網友取得 262TB 快取伺服器',
+    labels: ['news','draft'],
+    createdAt: '2024-09-08T08:31:38Z',
+  },
+  {
+    number: 36,
+    title: 'sadservers.com',
+    labels: ['reference','draft'],
+    createdAt: '2024-09-08T08:30:29Z',
+  },
+  {
+    number: 35,
+    title: 'Event Driven Architecture - 5 Pitfalls to Avoid',
+    labels: ['reference','draft'],
+    createdAt: '2024-09-08T08:28:12Z',
+  },
+  {
+    number: 34,
+    title: 'Nginx Certbot Auto Setup',
+    labels: ['reference','draft'],
+    createdAt: '2024-09-08T08:26:50Z',
+  },
+  {
+    number: 33,
+    title: 'API First 的策略與架構',
+    labels: ['reference','draft'],
+    createdAt: '2024-09-08T08:25:34Z',
+  },
+  {
+    number: 32,
+    title: 'Liquibase vs Flyway',
+    labels: ['reference','draft'],
+    createdAt: '2024-09-08T08:24:16Z',
+  },
+  {
+    number: 31,
+    title: '給 Java 新手的一封信 (2022 版)',
+    labels: ['reference','draft'],
+    createdAt: '2024-09-08T08:23:19Z',
+  },
+  {
+    number: 30,
+    title: 'Full Stack Python',
+    labels: ['news','draft'],
+    createdAt: '2024-09-01T04:20:45Z',
+  },
+  {
+    number: 29,
+    title: '超長 GBoard',
+    labels: ['meme','draft'],
+    createdAt: '2024-09-01T04:19:50Z',
+  },
+  {
+    number: 28,
+    title: '工程師跨越管理的第一道牆 - 放下',
+    labels: ['reference','draft'],
+    createdAt: '2024-09-01T04:18:12Z',
+  },
+  {
+    number: 27,
+    title: 'Search Icons',
+    labels: ['news','draft'],
+    createdAt: '2024-09-01T04:17:39Z',
+  },
+  {
+    number: 26,
+    title: 'GitHub Copilot被告了',
+    labels: ['news','draft'],
+    createdAt: '2024-09-01T04:16:48Z',
+  },
+  {
+    number: 25,
+    title: '動物表情攝影大賽',
+    labels: ['news'],
+    createdAt: '2024-09-01T04:15:59Z',
+  },
+  {
+    number: 24,
+    title: 'Windows 要出 ARM 版本',
+    labels: ['news'],
+    createdAt: '2024-09-01T04:14:50Z',
+  },
+  {
+    number: 23,
+    title: '正確的 DevOps 總結',
+    labels: ['reference','draft'],
+    createdAt: '2024-09-01T04:13:04Z',
+  },
+  {
+    number: 22,
+    title: 'capturing http requests',
+    labels: ['reference','draft'],
+    createdAt: '2024-09-01T04:11:56Z',
+  },
+  {
+    number: 21,
+    title: 'snoo bassinet baby sleeping subscription',
+    labels: ['news','draft'],
+    createdAt: '2024-09-01T04:09:03Z',
+  },
+  {
+    number: 20,
+    title: 'why lowercase letters save data',
+    labels: ['reference','draft'],
+    createdAt: '2024-09-01T04:07:36Z',
+  },
+  {
     number: 19,
     title: 'How to Turn Your iPhone Screen Red',
     labels: ['reference'],
@@ -69,7 +177,7 @@ export const Articles: Article[] = [
   },
   {
     number: 9,
-    title: '把 GitHub Issues 當作簡單的 CRM 使用',
+    title: '把 GitHub Issues 當作簡單的 CMS 使用',
     labels: ['self','draft'],
     createdAt: '2024-06-16T02:52:19Z',
   },
@@ -78,47 +186,5 @@ export const Articles: Article[] = [
     title: '真。實體開單',
     labels: ['meme'],
     createdAt: '2024-06-15T18:18:26Z',
-  },
-  {
-    number: 7,
-    title: 'DevUtils.app 的作者與他的故事',
-    labels: ['self'],
-    createdAt: '2024-06-15T18:13:20Z',
-  },
-  {
-    number: 6,
-    title: '真。章魚貓',
-    labels: ['meme'],
-    createdAt: '2024-06-15T18:05:11Z',
-  },
-  {
-    number: 5,
-    title: 'misbrands',
-    labels: ['meme'],
-    createdAt: '2024-06-15T18:01:53Z',
-  },
-  {
-    number: 4,
-    title: 'ICQ 將終止營運',
-    labels: ['news'],
-    createdAt: '2024-06-15T09:49:35Z',
-  },
-  {
-    number: 3,
-    title: 'Google 搜尋引擎內部 API 文件外洩',
-    labels: ['reference'],
-    createdAt: '2024-06-15T09:24:55Z',
-  },
-  {
-    number: 2,
-    title: 'Cash 哥的工程師必備',
-    labels: ['reference'],
-    createdAt: '2024-06-12T15:19:52Z',
-  },
-  {
-    number: 1,
-    title: '整理了 Intellij IDEA 2020 到 2022 年底的一些更新',
-    labels: ['self'],
-    createdAt: '2024-06-08T14:09:11Z',
   }
 ]
