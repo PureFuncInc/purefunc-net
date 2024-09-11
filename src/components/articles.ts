@@ -8,6 +8,24 @@ export interface Article {
 
 export const Articles: Article[] = [
   {
+    number: 40,
+    title: 'Maybe I Should Make an API Monkey Someday',
+    labels: ['self','draft'],
+    createdAt: '2024-09-10T15:31:08Z',
+  },
+  {
+    number: 39,
+    title: '正確地使用 Header',
+    labels: ['reference','draft'],
+    createdAt: '2024-09-10T15:28:56Z',
+  },
+  {
+    number: 38,
+    title: '歐盟薪資透明法，預計於 2026 年 6 月全面實施',
+    labels: ['news','draft'],
+    createdAt: '2024-09-10T15:16:50Z',
+  },
+  {
     number: 37,
     title: '支撐 Netflix 運作的神祕硬體，Reddit 網友取得 262TB 快取伺服器',
     labels: ['news','draft'],
@@ -168,23 +186,5 @@ export const Articles: Article[] = [
     title: '整理了 20 年以來一些鐵人賽的得獎名單',
     labels: ['self','draft'],
     createdAt: '2024-06-16T03:24:46Z',
-  },
-  {
-    number: 10,
-    title: '技術封建主義',
-    labels: ['self','draft'],
-    createdAt: '2024-06-16T03:20:58Z',
-  },
-  {
-    number: 9,
-    title: '把 GitHub Issues 當作簡單的 CMS 使用',
-    labels: ['self','draft'],
-    createdAt: '2024-06-16T02:52:19Z',
-  },
-  {
-    number: 8,
-    title: '真。實體開單',
-    labels: ['meme'],
-    createdAt: '2024-06-15T18:18:26Z',
   }
 ]
