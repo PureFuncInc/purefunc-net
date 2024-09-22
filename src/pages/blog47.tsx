@@ -9,7 +9,7 @@ export default function Blog47() {
 ### 🏞 縮圖
 
 ### ⛓ 原文
-* https://www.thoughtworks.com/radar
+* https://medium.com/@liams_o/15-fundamental-tips-on-rest-api-design-9a05bcd42920
 
 ### 📜 心得
 *

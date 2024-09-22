@@ -3,6 +3,13 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/home'
 import Blog from './pages/blog'
+import Blog67 from './pages/blog67'
+import Blog66 from './pages/blog66'
+import Blog65 from './pages/blog65'
+import Blog64 from './pages/blog64'
+import Blog63 from './pages/blog63'
+import Blog62 from './pages/blog62'
+import Blog61 from './pages/blog61'
 import Blog60 from './pages/blog60'
 import Blog59 from './pages/blog59'
 import Blog58 from './pages/blog58'
@@ -26,13 +33,6 @@ import Blog41 from './pages/blog41'
 import Blog40 from './pages/blog40'
 import Blog39 from './pages/blog39'
 import Blog38 from './pages/blog38'
-import Blog37 from './pages/blog37'
-import Blog36 from './pages/blog36'
-import Blog35 from './pages/blog35'
-import Blog34 from './pages/blog34'
-import Blog33 from './pages/blog33'
-import Blog32 from './pages/blog32'
-import Blog31 from './pages/blog31'
 
 export default function App() {
   return (
@@ -40,6 +40,13 @@ export default function App() {
       <Routes>
         <Route path={`/`} element={<Home />} />
         <Route path={`/blog`} element={<Blog />} />
+        <Route path={`/blog/67`} element={<Blog67 />} />
+        <Route path={`/blog/66`} element={<Blog66 />} />
+        <Route path={`/blog/65`} element={<Blog65 />} />
+        <Route path={`/blog/64`} element={<Blog64 />} />
+        <Route path={`/blog/63`} element={<Blog63 />} />
+        <Route path={`/blog/62`} element={<Blog62 />} />
+        <Route path={`/blog/61`} element={<Blog61 />} />
         <Route path={`/blog/60`} element={<Blog60 />} />
         <Route path={`/blog/59`} element={<Blog59 />} />
         <Route path={`/blog/58`} element={<Blog58 />} />
@@ -63,13 +70,6 @@ export default function App() {
         <Route path={`/blog/40`} element={<Blog40 />} />
         <Route path={`/blog/39`} element={<Blog39 />} />
         <Route path={`/blog/38`} element={<Blog38 />} />
-        <Route path={`/blog/37`} element={<Blog37 />} />
-        <Route path={`/blog/36`} element={<Blog36 />} />
-        <Route path={`/blog/35`} element={<Blog35 />} />
-        <Route path={`/blog/34`} element={<Blog34 />} />
-        <Route path={`/blog/33`} element={<Blog33 />} />
-        <Route path={`/blog/32`} element={<Blog32 />} />
-        <Route path={`/blog/31`} element={<Blog31 />} />
       </Routes>
     </>
   )

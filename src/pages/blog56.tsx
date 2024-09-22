@@ -9,7 +9,7 @@ export default function Blog56() {
 ### 🏞 縮圖
 
 ### ⛓ 原文
-* https://github.com/EvanLi/Github-Ranking#most-stars
+* https://www.ithome.com.tw/news/153300
 
 ### 📜 節錄及心得
 *

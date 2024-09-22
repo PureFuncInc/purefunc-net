@@ -8,6 +8,48 @@ export interface Article {
 
 export const Articles: Article[] = [
   {
+    number: 67,
+    title: 'Cash 哥的工程師必備',
+    labels: ['reference','draft'],
+    createdAt: '2024-09-21T15:03:52Z',
+  },
+  {
+    number: 66,
+    title: '8岁黑客是如何入侵Uber公司的？',
+    labels: ['news','draft'],
+    createdAt: '2024-09-21T14:59:59Z',
+  },
+  {
+    number: 65,
+    title: 'Guru Series',
+    labels: ['reference','draft'],
+    createdAt: '2024-09-21T14:58:59Z',
+  },
+  {
+    number: 64,
+    title: 'SQL vs NoSQL is the Wrong Distinction',
+    labels: ['reference','draft'],
+    createdAt: '2024-09-21T14:56:48Z',
+  },
+  {
+    number: 63,
+    title: 'benchmarks leaderboard ranking',
+    labels: ['self','draft'],
+    createdAt: '2024-09-21T14:53:08Z',
+  },
+  {
+    number: 62,
+    title: 'my-salary-progression-from-amazon-microsoft-google',
+    labels: ['news','draft'],
+    createdAt: '2024-09-21T14:47:42Z',
+  },
+  {
+    number: 61,
+    title: 'qrtt1 參加 WSA GAAS 計畫的一些學習心得分享',
+    labels: ['reference','draft'],
+    createdAt: '2024-09-21T14:46:59Z',
+  },
+  {
     number: 60,
     title: 'Honeypot',
     labels: ['news','draft'],
@@ -33,7 +75,7 @@ export const Articles: Article[] = [
   },
   {
     number: 56,
-    title: 'Github-Ranking',
+    title: 'Google拒絕為歐洲電信業者負擔網路成本',
     labels: ['news','draft'],
     createdAt: '2024-09-20T14:14:26Z',
   },
@@ -87,7 +129,7 @@ export const Articles: Article[] = [
   },
   {
     number: 47,
-    title: '採用度雷達',
+    title: '15-fundamental-tips-on-rest-api-design',
     labels: ['reference','draft'],
     createdAt: '2024-09-20T14:05:30Z',
   },
@@ -144,47 +186,5 @@ export const Articles: Article[] = [
     title: '歐盟薪資透明法，預計於 2026 年 6 月全面實施',
     labels: ['news','draft'],
     createdAt: '2024-09-10T15:16:50Z',
-  },
-  {
-    number: 37,
-    title: '支撐 Netflix 運作的神祕硬體，Reddit 網友取得 262TB 快取伺服器',
-    labels: ['news','draft'],
-    createdAt: '2024-09-08T08:31:38Z',
-  },
-  {
-    number: 36,
-    title: 'sadservers.com',
-    labels: ['reference','draft'],
-    createdAt: '2024-09-08T08:30:29Z',
-  },
-  {
-    number: 35,
-    title: 'Event Driven Architecture - 5 Pitfalls to Avoid',
-    labels: ['reference','draft'],
-    createdAt: '2024-09-08T08:28:12Z',
-  },
-  {
-    number: 34,
-    title: 'Nginx Certbot Auto Setup',
-    labels: ['reference','draft'],
-    createdAt: '2024-09-08T08:26:50Z',
-  },
-  {
-    number: 33,
-    title: 'API First 的策略與架構',
-    labels: ['reference','draft'],
-    createdAt: '2024-09-08T08:25:34Z',
-  },
-  {
-    number: 32,
-    title: 'Liquibase vs Flyway',
-    labels: ['reference','draft'],
-    createdAt: '2024-09-08T08:24:16Z',
-  },
-  {
-    number: 31,
-    title: '給 Java 新手的一封信 (2022 版)',
-    labels: ['reference','draft'],
-    createdAt: '2024-09-08T08:23:19Z',
   }
 ]
