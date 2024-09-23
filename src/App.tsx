@@ -3,6 +3,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/home'
 import Blog from './pages/blog'
+import Blog68 from './pages/blog68'
 import Blog67 from './pages/blog67'
 import Blog66 from './pages/blog66'
 import Blog65 from './pages/blog65'
@@ -32,7 +33,6 @@ import Blog42 from './pages/blog42'
 import Blog41 from './pages/blog41'
 import Blog40 from './pages/blog40'
 import Blog39 from './pages/blog39'
-import Blog38 from './pages/blog38'
 
 export default function App() {
   return (
@@ -40,6 +40,7 @@ export default function App() {
       <Routes>
         <Route path={`/`} element={<Home />} />
         <Route path={`/blog`} element={<Blog />} />
+        <Route path={`/blog/68`} element={<Blog68 />} />
         <Route path={`/blog/67`} element={<Blog67 />} />
         <Route path={`/blog/66`} element={<Blog66 />} />
         <Route path={`/blog/65`} element={<Blog65 />} />
@@ -69,7 +70,6 @@ export default function App() {
         <Route path={`/blog/41`} element={<Blog41 />} />
         <Route path={`/blog/40`} element={<Blog40 />} />
         <Route path={`/blog/39`} element={<Blog39 />} />
-        <Route path={`/blog/38`} element={<Blog38 />} />
       </Routes>
     </>
   )

@@ -8,6 +8,12 @@ export interface Article {
 
 export const Articles: Article[] = [
   {
+    number: 68,
+    title: 'Advanced Shell Scripting Techniques: Automating Complex Tasks with Bash',
+    labels: ['news','draft'],
+    createdAt: '2024-09-22T08:23:06Z',
+  },
+  {
     number: 67,
     title: 'Cash 哥的工程師必備',
     labels: ['reference','draft'],
@@ -180,11 +186,5 @@ export const Articles: Article[] = [
     title: '正確地使用 Header',
     labels: ['reference','draft'],
     createdAt: '2024-09-10T15:28:56Z',
-  },
-  {
-    number: 38,
-    title: '歐盟薪資透明法，預計於 2026 年 6 月全面實施',
-    labels: ['news','draft'],
-    createdAt: '2024-09-10T15:16:50Z',
   }
 ]
