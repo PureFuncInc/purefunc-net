@@ -18,7 +18,8 @@ jobs:
           node-version: 18
 
       - name: Synchronize Issues
-        run: node .run/sync-issues.js ${{ secrets.TOKEN }}
+        run: |
+          node .run/sync-issues.js 1 ${{ secrets.TOKEN }}
 
       - name: Install Dependencies
         run: npm ci
