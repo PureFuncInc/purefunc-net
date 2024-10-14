@@ -1,4 +1,3 @@
-
 export interface Article {
   number: number
   title: string

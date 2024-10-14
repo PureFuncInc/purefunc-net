@@ -1,4 +1,3 @@
-
 import React from 'react'
 import HeaderBlock from '../components/header-block'
 import FooterBlock from '../components/footer-block'
