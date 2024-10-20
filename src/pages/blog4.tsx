@@ -5,7 +5,7 @@ import Markdown from 'react-markdown'
 
 export default function Blog4() {
   const content = `
-### 🏞 縮圖
+### 🏞 縮圖 (AI 生成
 ![339972336-619ad654-965a-4a63-bd55-14b0c1105679](https://github.com/PureFuncInc/purefunc-net/assets/6296280/228fdd51-68fa-4a33-aeb1-d840bad4ef4d)
 
 ### ⛓ 原文

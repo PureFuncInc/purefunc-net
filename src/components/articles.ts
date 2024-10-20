@@ -25,12 +25,6 @@ export const Articles: Article[] = [
     createdAt: '2024-08-31T17:40:02Z',
   },
   {
-    number: 17,
-    title: 'Programmers are afraid of light IDE theme',
-    labels: ['meme'],
-    createdAt: '2024-06-16T09:23:58Z',
-  },
-  {
     number: 13,
     title: 'GitHub 個人頁的美化',
     labels: ['self'],
@@ -47,12 +41,6 @@ export const Articles: Article[] = [
     title: 'DevUtils.app 的作者與他的故事',
     labels: ['self'],
     createdAt: '2024-06-15T18:13:20Z',
-  },
-  {
-    number: 6,
-    title: '真。章魚貓',
-    labels: ['meme'],
-    createdAt: '2024-06-15T18:05:11Z',
   },
   {
     number: 5,

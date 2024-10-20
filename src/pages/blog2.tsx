@@ -5,7 +5,7 @@ import Markdown from 'react-markdown'
 
 export default function Blog2() {
   const content = `
-### 🏞 縮圖
+### 🏞 縮圖 (AI 生成
 ![DALL·E 2024-06-16 16 56 53 - A modern workspace of a  NET software engineer  The scene includes a laptop with the  NET logo on the screen, surrounded by various tools and gadgets](https://github.com/PureFuncInc/purefunc-net/assets/6296280/30d0257c-4645-48fe-88fe-470780c1b502)
 
 ### ⛓ 原文

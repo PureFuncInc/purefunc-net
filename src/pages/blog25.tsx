@@ -5,7 +5,7 @@ import Markdown from 'react-markdown'
 
 export default function Blog25() {
   const content = `
-### 🏞 縮圖
+### 🏞 縮圖 (引用自 comedywildlifephoto 官網
 ![](https://www.comedywildlifephoto.com/images/wysiwyg/images/2020_winners/mark_fitzpatrick.jpg)
 
 ### ⛓ 原文

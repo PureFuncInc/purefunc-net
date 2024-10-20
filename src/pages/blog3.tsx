@@ -5,7 +5,7 @@ import Markdown from 'react-markdown'
 
 export default function Blog3() {
   const content = `
-### 🏞 縮圖
+### 🏞 縮圖 (AI 生成
 ![DALL·E 2024-06-16 17 01 24 - A news-themed thumbnail showing a computer screen with a search engine displayed, documents beside it, and a person's hand leaking the documents  The ](https://github.com/PureFuncInc/purefunc-net/assets/6296280/3cca3dc5-9255-49cb-a501-0c9c51459d25)
 
 ### ⛓ 原文

@@ -5,7 +5,7 @@ import Markdown from 'react-markdown'
 
 export default function Blog24() {
   const content = `
-### 🏞 縮圖
+### 🏞 縮圖 (AI 生成
 ![DALL·E 2024-09-01 12 30 41 - A humorous meme-style image featuring three characters_ Windows, ARM, and Intel  The Windows character looks confident and is pointing towards ARM, sm](https://github.com/user-attachments/assets/223e5b74-68fd-4f0d-a949-12e01f2ef1d1)
 
 ### ⛓ 原文
