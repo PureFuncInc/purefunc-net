@@ -1,24 +1,29 @@
-# Official website repository of $_purefunc
-![](https://github.com/PureFuncInc/purefunc-net/actions/workflows/on-schedule.yml/badge.svg) ![](https://github.com/PureFuncInc/purefunc-net/actions/workflows/on-issue-unlabeled.yml/badge.svg)
+# Official website repository of $\_purefunc
 
 ![](images/banner.webp)
 
 ## Commands for setting up the project
-```bash
+
+```shell
 npx create-react-app purefunc-net --template typescript
 ```
-```bash
-npm install tailwindcss-animated react-icons react-d3-cloud react-markdown react-router-dom @tailwindcss/typography
+
+```shell
+npm install tailwindcss-animated react-icons react-d3-cloud react-router-dom @tailwindcss/typography
 ```
-```bash
+
+```shell
 npm install --save-dev @babel/plugin-proposal-private-property-in-object
 ```
-```bash
+
+```shell
 npm install --save-dev tailwindcss autoprefixer eslint-plugin-react eslint-plugin-tailwindcss
 ```
-```bash
+
+```shell
 npm install --save-dev --save-exact prettier prettier-plugin-tailwindcss
 ```
-```bash
+
+```shell
 npx tailwindcss init
 ```
