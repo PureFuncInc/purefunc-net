@@ -8,7 +8,6 @@ interface Props {
 
 export default function HeaderBlock({ theme }: Props) {
   const textColor = theme === "light" ? "text-[#444444]" : "text-[#FFFFFF]";
-  // const borderColor = theme === "light" ? "border-[#444444]" : "border-[#FFFFFF]";
 
   return (
     <header className={`mx-8 mt-8 flex flex-wrap items-center justify-between gap-2 ${textColor} lg:mx-24 xl:mx-36 2xl:mx-48`}>
@@ -16,9 +15,6 @@ export default function HeaderBlock({ theme }: Props) {
         <img src={ImageNavyLogo} alt={`$_purefunc Navy Logo`} width={200} height={60} />
       </a>
       <div className={`flex flex-row items-center gap-8`}>
-        {/* <a href={`/#/blog`} className={`hidden md:block`}>
-          <SiWordpress size={24} />
-        </a> */}
         <a href={`https://facebook.com/purefuncinc`} className={`hidden md:block`}>
           <SiFacebook size={24} />
         </a>
@@ -31,11 +27,6 @@ export default function HeaderBlock({ theme }: Props) {
         <a href={`https://youtube.com/@purefuncinc`} className={`hidden md:block`}>
           <SiYoutube size={24} />
         </a>
-        {/* <a
-          href={`#contact`}
-          className={`rounded-xl border-2 ${borderColor} px-4 py-2`}>
-          聯絡我們
-        </a> */}
       </div>
     </header>
   );

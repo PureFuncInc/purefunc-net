@@ -1,17 +1,17 @@
-import { useEffect } from 'react'
-import { useLocation } from 'react-router-dom'
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 export default function ScrollToAnchor() {
-  const location = useLocation()
+  const location = useLocation();
 
   useEffect(() => {
     if (location.hash) {
-      const elem = document.getElementById(location.hash.slice(1))
+      const elem = document.getElementById(location.hash.slice(1));
       if (elem) {
-        elem.scrollIntoView({ behavior: 'smooth' })
+        elem.scrollIntoView({ behavior: "smooth" });
       }
     }
-  }, [location])
+  }, [location]);
 
-  return null
+  return null;
 }
