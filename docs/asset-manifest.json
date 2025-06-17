@@ -1,7 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.890766fb.css",
+<<<<<<< HEAD
     "main.js": "/static/js/main.9c7186b9.js",
+=======
+    "main.js": "/static/js/main.ef46a637.js",
+>>>>>>> 88ab6e6 (refactor: remove wordpress icon and unused border color from header)
     "static/media/imac.webp": "/static/media/imac.406f7852423d385e0385.webp",
     "static/media/team-shawn.webp": "/static/media/team-shawn.bdc88840950b8227482c.webp",
     "static/media/team-carlos.webp": "/static/media/team-carlos.0fc507686db014b26e89.webp",
@@ -13,10 +17,18 @@
     "index.html": "/index.html",
     "static/media/purefunc_black.webp": "/static/media/purefunc_black.8a3db0c6dce7b0ebff9e.webp",
     "main.890766fb.css.map": "/static/css/main.890766fb.css.map",
+<<<<<<< HEAD
     "main.9c7186b9.js.map": "/static/js/main.9c7186b9.js.map"
   },
   "entrypoints": [
     "static/css/main.890766fb.css",
     "static/js/main.9c7186b9.js"
+=======
+    "main.ef46a637.js.map": "/static/js/main.ef46a637.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.890766fb.css",
+    "static/js/main.ef46a637.js"
+>>>>>>> 88ab6e6 (refactor: remove wordpress icon and unused border color from header)
   ]
 }

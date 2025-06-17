@@ -1,6 +1,6 @@
 import ImageNavyLogo from "../assets/purefunc_navy.webp";
 import React from "react";
-import { SiFacebook, SiGithub, SiLinkedin, SiWordpress, SiYoutube } from "react-icons/si";
+import { SiFacebook, SiGithub, SiLinkedin, SiYoutube } from "react-icons/si";
 
 interface Props {
   theme: string;
@@ -8,7 +8,7 @@ interface Props {
 
 export default function HeaderBlock({ theme }: Props) {
   const textColor = theme === "light" ? "text-[#444444]" : "text-[#FFFFFF]";
-  const borderColor = theme === "light" ? "border-[#444444]" : "border-[#FFFFFF]";
+  // const borderColor = theme === "light" ? "border-[#444444]" : "border-[#FFFFFF]";
 
   return (
     <header className={`mx-8 mt-8 flex flex-wrap items-center justify-between gap-2 ${textColor} lg:mx-24 xl:mx-36 2xl:mx-48`}>
